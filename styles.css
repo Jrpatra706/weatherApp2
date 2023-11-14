@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    /* background: #222;
+     */
+     background: grey
+}
+span{
+    color: white;
+}
+p{
+    color: white;
+}
+body .container{
+    height: 83%;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    /* background: linear-gradient(135deg,#00feba,#5b548a); */
+    background: #c94b4b;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4b134f, #c94b4b);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4b134f, #c94b4b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+    /* background: linear-gradient(90deg, #d53369 0%, #daae51 100%); */
+    text-align: center;
+    padding: 2% 2%;
+    border-radius: 20px;
+}
+.container .body1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+.body1 .weather-img{
+    height: 9rem;
+    width: 9rem;
+
+}
+.body1 .footer{
+    display: flex;
+}
+.body1 .temperature{
+    font-size:4rem ;
+}
+.body1 .city{
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+.body1 .footer{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: start; */
+}
+.footer .humidity{
+    display: flex;
+}
+.footer .wind-speed{
+    display: flex;
+}
+.footer .foot-img{
+    height: 30px;
+    margin-top: 5px;
+}
+.footer .foot-info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 7px;
+}
+.footer .foot-val1{
+    font-size: 20px;
+}
+.footer .foot-val2{
+    font-size: 12px;
+}
+.container .search{
+    /* margin-left: 60px;
+    display: flex; */
+    width: 100%;
+    /* justify-content: space-around; */
+}
+.search .search-box{
+    color: black;
+    border-radius: 20px;
+    border: none;
+    height: 3rem;
+    width: 80%;
+    padding-left: 18px;
+    margin-right: 8px;
+    font-size: 0.95rem;
+}
+.search .search-box,.search-btn:hover{
+    cursor: pointer;
+
+}
+.search .search-btn{
+    border-radius: 50%;
+    height: 3rem;
+    border: none;
+    width:15% ;
+}
